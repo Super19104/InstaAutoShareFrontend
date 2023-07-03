@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACKEND_URL='http://localhost:5001'
+export const BACKEND_URL='https://insta-auto-share-api.onrender.com'
 
 export const getUser=async()=>{
     try
