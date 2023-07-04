@@ -130,7 +130,7 @@ const PostContent = () => {
                                         </Grid>
                                         :
                                         <Grid item xs={4}>
-                                            <Button variant="contained" color="success" onClick={()=>addUser(user.username)}>Selected User</Button>
+                                            <Button variant="contained" color="success" onClick={()=>addUser(user.username)}>Select User</Button>
                                         </Grid>
                                     }
                                     
