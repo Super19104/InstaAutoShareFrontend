@@ -3,8 +3,8 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import AdbIcon from '@mui/icons-material/Adb';
 import { Grid} from '@mui/material';
+import AppIcon from '../assets/instagram.svg'
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <AppBar position="static">
                   <Container maxWidth="xl">
                       <Toolbar disableGutters> {/*Toolbar is to display its children with an inline display (elements are placed next to each other),*/}
-                        <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                        <img src={AppIcon} alt='InstaAutoShare' height={'60px'} width={'60px'}  sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                         <Typography
                               variant="h6"
                               noWrap
@@ -22,8 +22,9 @@ const Navbar = () => {
                               href="/"
                               sx={{
                               mr: 2,
+                              ml:2,
+                              py:3,
                               display: { xs: 'none', md: 'flex' },
-                              fontFamily: 'monospace',
                               fontWeight: 700,
                               letterSpacing: '.2rem',
                               color: 'inherit',
