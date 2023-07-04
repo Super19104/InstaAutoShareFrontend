@@ -30,7 +30,7 @@ const Navbar = () => {
                               textDecoration: 'none',
                               }}
                           >
-                              REPOST TOOL
+                              InstaAutoShare
                           </Typography>
                       </Toolbar>
                   </Container>
